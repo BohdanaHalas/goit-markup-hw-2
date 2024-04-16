@@ -46,13 +46,19 @@ body {
     color: #404bbf;
 }
 
-.menu-link:active {
+.menu-link:focus,
+.contacts-link:focus {
     color: #404bbf;
 }
+
+.main-contacts {
+    font-style: normal
+}
+
 .contacts-link {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -64,22 +70,25 @@ body {
 .slogan {
     font-weight: 700;
         font-size: 56px;
-        line-height: 107%;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
 }
 
 .button-order {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #fff;
+        cursor: pointer;
+        color: #ffffff;
         background: #4d5ae5;
 }
 
-.button-order:hover {
+.button-order:hover,
+.button-order:focus {
     background: #404bbf;
 }
 
@@ -87,7 +96,7 @@ body {
 .title-priorities {
     font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -95,7 +104,7 @@ body {
 .text-priorities {
     font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -106,19 +115,20 @@ body {
 .title-team {
     font-weight: 700;
         font-size: 36px;
-        line-height: 111%;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 .items-team {
-    background: #fff;
+    background: #ffffff;
 }
 
 .name-team {
     font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -126,7 +136,7 @@ body {
 .text-team {
     font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -134,16 +144,17 @@ body {
 .title-portfolio {
     font-weight: 700;
         font-size: 36px;
-        line-height: 111%;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
 .name-portfolio {
     font-weight: 500;
         font-size: 20px;
-        line-height: 120%;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -151,7 +162,7 @@ body {
 .text-portfolio {
     font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
